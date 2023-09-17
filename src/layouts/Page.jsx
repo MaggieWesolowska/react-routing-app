@@ -1,6 +1,7 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import HomePage from '../pages/HomePage';
+import ProductList from '../pages/ProductList';
 import ProductPage from '../pages/ProductPage';
 import ContactPage from '../pages/ContactPage';
 import AdminPage from '../pages/AdminPage';
@@ -13,6 +14,9 @@ const Page = () => {
       <Route path='/' element={<HomePage />}></Route>
       <Route
         path='/products'
+        element={<ProductList />}></Route>
+      <Route
+        path='/product/:id'
         element={<ProductPage />}></Route>
       <Route
         path='/contact'
