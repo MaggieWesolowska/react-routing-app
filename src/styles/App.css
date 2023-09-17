@@ -22,9 +22,9 @@
   color: #282c34;
 }
 
-header {
+/* header {
   flex-basis: 30vh;
-}
+} */
 
 main {
   display: flex;
