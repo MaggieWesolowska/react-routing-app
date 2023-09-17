@@ -6,7 +6,7 @@ const list = [
   { name: 'main page', path: '/' },
   { name: 'products', path: '/products' },
   { name: 'contact', path: '/contact' },
-  { name: 'user admin', path: '/admin' },
+  { name: 'user admin', path: '/admin/*' },
 ];
 
 const Navigation = () => {
