@@ -17,7 +17,9 @@ const Article = ({ title, author, text }) => {
         style={{
           display: 'block',
           marginBottom: 10,
-          fontSize: 12,
+          fontSize: 13,
+          color: 'lightgreen',
+          fontWeight: 'bold',
         }}>
         {author}
       </span>
