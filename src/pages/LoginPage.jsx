@@ -1,15 +1,20 @@
 import React from 'react';
+import '../styles/LoginPage.css';
 
 const LoginPage = () => {
   return (
     <div>
-      <label htmlFor='Enter email'>
-        <input type='text'></input>
-      </label>
-      <label htmlFor='Enter password'>
-        <input type='password'></input>
-      </label>
-      <button>Login</button>
+      <form className='formAdmin'>
+        <label htmlFor='Enter email'>
+          <input type='text' placeholder='Email'></input>
+        </label>
+        <label htmlFor='Enter password'>
+          <input
+            type='password'
+            placeholder='Password'></input>
+        </label>
+        <button type='submit'>Login</button>
+      </form>
     </div>
   );
 };
