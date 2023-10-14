@@ -1,8 +1,8 @@
 import React from 'react';
-import { Route, Routes, redirect } from 'react-router-dom';
+// import { Route, Routes, redirect } from 'react-router-dom';
 import LoginPage from './LoginPage';
 
-const permission = false;
+// const permission = false;
 
 const AdminPage = () => {
   return (
