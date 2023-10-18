@@ -1,23 +1,12 @@
 import React from 'react';
-// import { Route, Routes, redirect } from 'react-router-dom';
 import LoginPage from './LoginPage';
 
-// const permission = false;
+const permission = false;
 
 const AdminPage = () => {
-  return (
-    // <Routes>
-    //   <Route
-    //     element={() =>
-    //       permission ? (
-    //         <h4>Admin Panel - Welcome!</h4>
-    //       ) : (
-    //         redirect('/login')
-    //       )
-    //     }
-    //   />
-    // </Routes>
-
+  return permission ? (
+    <h4 className='adminPanel'>Admin Panel - Welcome!</h4>
+  ) : (
     <LoginPage />
   );
 };
